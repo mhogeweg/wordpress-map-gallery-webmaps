@@ -1,0 +1,200 @@
+﻿body, div, dl, dt, dd, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}    
+
+html body, textarea, input {
+  color: #4B4B4B;
+  font-family: "Segoe UI",Tahoma,Helvetica,Verdana,sans-serif !important;
+  font-size: 13px;
+}
+  
+#featuredMaps #fHeader h2 {
+  color: #000000;
+  font-size: 18px;
+  margin-top: 0;
+  padding: 8px 0 0 15px;
+}
+
+h1, h2, h3, .item .contentWidth h1, #featuredMaps .coverStory span {
+  font-weight: normal !important;
+  font-style: normal;
+  line-height: normal;
+  font-variant: normal;
+  font-family: 'Avenir LT W01 85 Heavy', Verdana, Geneva, sans-serif;
+}
+
+#featuredMaps #fHeader {
+  height: 35px;
+  margin-bottom: 8px;
+}    
+   
+#featuredMaps {
+  margin: 0 0 18px;
+  padding: 0 0 0 15px;
+  width: 865px;
+  height: 250px;
+}
+
+#content div.col3 div.content p {
+  margin-top: 0em;
+}
+
+#page-border #content div.col3 div.content {
+  margin: -10px 15px 0 15px;
+}
+
+#page-border #content div.col3 div.content h1 {
+  margin-bottom: 0.25em;
+}
+
+.content h1 a, .content h1 a:active, .content h1 a:hover, .content h1 a:visited {
+  color: #024672;
+  font-style: normal !important;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.rounded {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#mainLayoutWindow {
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+}
+
+#welcomePane {
+  margin-bottom: 5px;
+}
+
+.previewNode {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+/*
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+*/
+}
+.previewNode img 
+{
+  border:5px solid #00aeef;
+}
+
+.itemLabel {
+color: #007FAE;
+padding-top:10px;
+/* font-size:15px; */
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+/* font-weight:600; */
+}
+
+.scrollPaneParent {
+  /* width: 860px; */
+  height: 200px;
+}
+
+.scrollPaneParentgroup {
+  width: 650px;
+  height: 125px;
+}
+
+#featuredPane {
+  color: #6e744e;
+  margin: 5px 0px 0px 20px;
+}
+
+#featuredPane2 {
+color: #6e744e;
+margin: 5px 0px 0px 20px;
+position: relative;
+left: 600px;
+overflow:auto;
+}
+
+#featuredPane h2, #videoText h2 {
+color: #0b57ad;
+margin-top: -3px;
+margin-bottom: 5px;
+}
+
+#featuredPane td img {
+width: 100px;
+height: 60px;
+}
+.scroll {
+height: 80px; 
+width: 25px; 
+position: relative; 
+}
+.scrollDisabled {
+ /*background-position: 0 -94px;*/
+}
+.scroll:hover {
+ /*background-position: 0 -188px;*/
+ cursor: pointer;
+}
+.scrollPrev {
+background-image: url('../images/galleryprev.png');
+left: -20px; 
+bottom: 150px;
+}
+.scrollNext {
+background-image: url('../images/gallerynext.png');
+float: right; 
+right:-28px;
+bottom: 230px;
+}
+.scrollContent {
+position: relative;
+}
+/*
+The following zoom:1 rule is specifically for IE6 + IE7.
+Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+zoom: 1;
+}
+.clearfix:after {
+clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+content: " ";
+display: block;
+height: 0;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+}
+
+.clearfix:before, .clearfix:after {
+content: " ";
+display: block;
+height: 0;
+overflow: hidden;
+visibility: hidden;
+width: 0;
+}
+
+a, a:hover, a:active, a:visited {
+color: #333333;
+text-decoration: none;
+}
+
+table {
+font-size: 100%;
+}
+
+fieldset, img {
+border: 0 none;
+}
